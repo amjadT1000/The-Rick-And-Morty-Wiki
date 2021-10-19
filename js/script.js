@@ -60,10 +60,12 @@ if (type[2] == "character" || type[2] == "episode" || type[2] == "location") {
                               <td>${information.location.name}</td>
                           </tr>
                       </table>
+                      
           </div>
 
             `;
                     node.id = "card"
+
                     document.getElementById("columns").appendChild(node);
                 } else if (type[2] == "location") {
                     var node = document.createElement("div");
@@ -172,7 +174,14 @@ function search() {
     }).then((response) => {
         console.log("resolve", response.status, response.ok ? "OK" : response)
         if (response.status == 404) {
-            document.getElementById("columns").innerHTML = "No Result Found"
+            var node = document.createElement("div");
+            node.innerHTML = `
+            <div class="notification is-warning">
+            <strong>No Result Found</strong>
+        </div>
+            `;
+            document.getElementById("columns").appendChild(node);
+
         }
         return response.json();
     }).then(data => {
@@ -221,4 +230,25 @@ function search() {
 
 /*
 Search Function End here --------->
+*/
+
+
+/*
+
+function to open the menu <-------
+
+*/
+document.getElementsByClassName("navbar-burger").addEventListener("click", function () {
+    if (document.getElementById("menu").className == "navbar-menu") {
+        document.getElementById("menu").className = "navbar-menu is-active is-center"
+    } else {
+        document.getElementById("menu").className = "navbar-menu"
+    }
+})
+
+
+/*
+
+function to open the menu ------->
+
 */

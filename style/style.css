@@ -16,3 +16,26 @@
 .field{
   margin: 20px  ;
 }
+.pagination-previous,.pagination-next{
+  background-color:#00d1b2 ;
+}
+
+html{
+  background-image: url("../images/poster.png");
+  
+}
+video {  
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 50vh;
+}

@@ -238,11 +238,12 @@ Search Function End here --------->
 function to open the menu <-------
 
 */
-document.getElementsByClassName("navbar-burger").addEventListener("click", function () {
-    if (document.getElementById("menu").className == "navbar-menu") {
-        document.getElementById("menu").className = "navbar-menu is-active is-center"
+document.getElementById("menu").addEventListener("click", function () {
+    console.log("hello")
+    if (document.getElementById("open").className == "navbar-menu") {
+        document.getElementById("open").className = "navbar-menu is-active is-center"
     } else {
-        document.getElementById("menu").className = "navbar-menu"
+        document.getElementById("open").className = "navbar-menu"
     }
 })
 

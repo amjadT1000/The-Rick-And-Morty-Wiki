@@ -7,10 +7,6 @@
   </a>
 
   <h3 align="center">The Rick And Morty Wiki</h3>
-  <p>
-    This site show information about famous show called therick and morty
-    something like the characters and epeisodes and location in
-  </p>
 </div>
 
 
@@ -37,8 +33,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
+<div >
+  <a href="https://the-rick-and-morty-wiki.vercel.app/">
+    <img src="images/screenshot.png" alt="Logo" >
+  </a>
 This site show information about famous show called therick and morty
 something like the characters and epeisodes and location in
 

@@ -52,9 +52,9 @@ something like the characters and epeisodes and location in
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
-
-Use is so simple just vist the website and start navigate into it
+## Functionality 
+Display card full of info about chracters and episodes and loction
+search in the chracters by name of the character
 
 
 
@@ -71,7 +71,13 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+  
+<!-- Links -->
+## Links
+ 
+Figma Link - [Figma](https://www.figma.com/file/F8iowuHkt01ZO49yRCq0jx/The-Rick-And-Morty-Wiki?node-id=0%3A1)
 
+Trello Link: [Trello](https://trello.com/b/FSIP5pHC/the-rick-and-morty-wiki)
 
 <!-- CONTACT -->
 ## Contact
